@@ -1,0 +1,20 @@
+#nome {
+    font-family: Helvetica;
+}
+
+body{
+    background-color: #F8FFE5;
+    text-align: center;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+.titulos {
+    color: #1b1b1cff;
+}
+
+#java {
+    font-size: smaller;
+}
