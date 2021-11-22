@@ -11,3 +11,7 @@ body{
 #java {
     font-size: smaller;
 }
+
+#foto_perfil {
+    border-radius: 100px;
+}
