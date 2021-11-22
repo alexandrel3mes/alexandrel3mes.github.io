@@ -19,10 +19,10 @@ body{
 
 .botao_indice {
     text-decoration: none;
-    background-color: #2c0dabff;
-    color: #e0f79eff;
+    background-color: #1b1b1cff;
+    color: #F8FFE5;
     line-height: 55px;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
 }
 
