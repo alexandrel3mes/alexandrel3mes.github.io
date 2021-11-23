@@ -1,12 +1,23 @@
 body{
     background-color: #F8FFE5;
-    text-align: center;
     font-family: 'Montserrat', sans-serif;
     line-height: 30px;
+    text-align: center;
 }
 
 .titulos {
     color: #1b1b1cff;
+    text-align: center;
+    padding: 40px;
+    
+}
+
+#nome {
+    text-align: center;
+}
+
+#foto_perfil{
+    float: left;
 }
 
 #java {
@@ -15,6 +26,8 @@ body{
 
 #foto_perfil {
     border-radius: 100px;
+    position: relative;
+    bottom: 20px;
 }
 
 .botao_indice {
@@ -24,19 +37,29 @@ body{
     line-height: 55px;
     padding: 20px;
     border-radius: 10px;
+    
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: center;
 }
 
 .teste {
-  display: inline-block;
-  margin: 0 10px;
-  padding: 5px;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px;
 }
 
+
+
+.descricao {
+    text-align: center;
+    width: 90%;
+}
+
+.teste:hover {
+    filter: invert(1);
+}
 
