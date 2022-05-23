@@ -1,65 +1,34 @@
-body{
-    background-color: #F8FFE5;
-    font-family: 'Montserrat', sans-serif;
-    line-height: 30px;
-    text-align: center;
+body {
+  margin: 0px;
 }
 
-.titulos {
-    color: #1b1b1cff;
-    text-align: center;
-    padding: 40px;
-    
+.header-img {
+  width: 20px;
+  margin-right: 10px;
 }
 
-#nome {
-    text-align: center;
+.img-with-name {
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#foto_perfil{
-    float: left;
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: aliceblue;
+  background: black;
 }
 
-#java {
-    font-size: smaller;
+.header-btns {
+  margin-right: 30px;
 }
 
-#foto_perfil {
-    border-radius: 100px;
-    position: relative;
-    bottom: 20px;
+.header-btn {
+  color: aliceblue;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
-
-.botao_indice {
-    text-decoration: none;
-    background-color: #1b1b1cff;
-    color: #F8FFE5;
-    line-height: 55px;
-    padding: 20px;
-    border-radius: 10px;
-    
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.teste {
-    display: inline-block;
-    margin: 0 10px;
-    padding: 5px;
-}
-
-
-
-.descricao {
-    text-align: center;
-    width: 90%;
-}
-
-.teste:hover {
-    filter: invert(1);
-}
-
