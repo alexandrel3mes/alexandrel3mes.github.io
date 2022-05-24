@@ -1,34 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto&display=swap');
+
+:root {
+  --main-white: aliceblue;
+  --quicksand-font: 'Quicksand', sans-serif;
+  --roboto-font: 'Roboto', sans-serif;
+}
+
 body {
   margin: 0px;
+  background: var(--main-white);
 }
 
-.header-img {
-  width: 20px;
-  margin-right: 10px;
+.header-btns-mobile {
+  display: none;
 }
 
-.img-with-name {
-  margin-left: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+@media (max-width: 1000px) {
+  .mobile-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+    height: 10vh;
+  }
 
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  color: aliceblue;
-  background: black;
-}
+  .header-name-mobile {
+    font-family: var(--roboto-font);
+    font-size: larger;
+    margin-left: 20px;
+    color: var(--main-white);
+  }
 
-.header-btns {
-  margin-right: 30px;
-}
+  .header-img-mobile {
+    width: 30px;
+  }
 
-.header-btn {
-  color: aliceblue;
-  background: none;
-  border: none;
-  cursor: pointer;
+  .img-with-name-mobile {
+    display: flex;
+    align-items: center;
+  }
+
+  .ham-menu {
+    width: 30px;
+    height: 30px;
+    filter: invert();
+  }
+
+  .header {
+    display: none;
+  }
+} 
+
+@media (min-width: 1000px) {
+  .mobile-header {
+    display: none;
+  }
+
+  .header-img {
+    width: 20px;
+    margin-right: 10px;
+  }
+
+  .img-with-name {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header-name {
+    font-family: var(--quicksand-font);
+    font-size: larger;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--main-white);
+    background: black;
+    height: 10vh;
+  }
+
+  .header-btns {
+    margin-right: 50px;
+  }
+
+  .header-btn {
+    color: var(--main-white);
+    width: 95px;
+    font-size: medium;
+    font-family: var(--quicksand-font);
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
 }
